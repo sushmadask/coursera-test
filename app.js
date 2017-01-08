@@ -20,6 +20,8 @@ function LunchCheckController($scope) {
           }else{
             $scope.message = 'Too much!';
           }
+      }else{
+         $scope.message = 'Please enter data first';
       }
   }; 
 }
